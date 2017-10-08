@@ -1,0 +1,166 @@
+.container {
+}
+html,
+    body {
+    margin: 0;
+     background-image: url(".Bodleian.jpg")
+     background-size: 1440px 800px;
+     background-repeat:no-repeat;
+     display: compact;
+        height: 100%;
+        font-size: 16px;
+        font-family:inherit 'Raleway-Regular.ttf'
+        color: antiquewhite;
+        background-image: url('../img/Bodleian.jpg') center center;
+}
+@font-face {
+        font-family: 'Raleway-Regular';
+        src: local('Raleway-Regular.ttf'), url('Raleway-Regular.ttf') format('truetype');
+    
+@font-face {
+        font-family: 'KaushanScript.ttf';
+        src: local('KaushanScript.ttf'), url('KaushanScript.ttf') format('truetype');   
+ }
+        
+        
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+    overflow: hidden;
+    background-color: #333;
+    }        
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a: hover {
+    background-color:antiquewhite;
+}
+       
+}
+h1 {
+    text-align: center;
+}
+
+#cover {
+    
+}
+
+.wall-sticker {
+    background: rgba(250, 235, 215, 0.8);
+    padding: 5rem 20rem 16rem 3rem;
+    font-family: 'KaushanScript-Regular';
+    color:#331a00;
+    font-size:4rem;
+        
+}
+
+.moto {
+    font-family: 'KaushanScript-Regular';
+    font-size: 4rem;
+    margin-top: 160px;
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.btn-lg {
+    background-color: transparent;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 40px;
+    border:1px;  
+    transition: 0.5s;
+}
+
+.btn-lg: hover,
+.btn-lg: focus,
+.btn-lg: active {
+    background-color: rgba(19, 128, 36, 0.54);
+    border: 1px sold rgba(19, 128, 26, 0);
+    transition: 0.5s;
+}
+.fa-arrow-down {
+    margin-left: 40rem;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color:antiquewhite;
+    transition: 0.3s;
+        
+}
+
+.bold-brown {
+    color: rgba(96, 74, 0, 0.9);
+}
+
+.bold-gold {
+    color: rgba(232, 190, 46, 3);
+    font-family:inherit;
+    font-size: 6rem;
+}
+
+
+.navbar-brand {
+    font-family: 'Raleway-Regular';
+    padding-right: 30px;
+    }
+#main-nav {
+    font-family:inherit;
+}
+
+#main-nav li a {
+    border-bottom: 1px solid transparent;    
+}
+
+#main-nav li a:hover {
+    border-bottom: 1px solid brown;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1920px){
+    
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 16rem 20rem 10rem 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 1920px){
+    
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 16rem 20rem 10rem 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
